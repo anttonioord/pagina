@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Ordoñez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ferretería Ordoñez</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <h2>¡Bienvenido a Ferretería Ordoñez!</h2>
+            <p>Encuentra todo lo que necesitas para tus proyectos de construcción y reparación. ¡Tenemos las mejores herramientas al mejor precio!</p>
+        </section>
+
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+
+ <!-- Productos -->
+<div class="producto">
+    <img src="images/martillo.jpeg" alt="Martillo">
+    <h3>Martillo de Acero</h3>
+    <p>Precio: Q.117.00</p> <!-- $15.00 * 7.8 = Q.117.00 -->
+    <button onclick="agregarAlCarrito('Martillo de Acero', 117)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/serrucho.jpeg" alt="Serrucho">
+    <h3>Serrucho de Mano</h3>
+    <p>Precio: Q.78.00</p> <!-- $10.00 * 7.8 = Q.78.00 -->
+    <button onclick="agregarAlCarrito('Serrucho de Mano', 78)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/tornillos.jpeg" alt="Tornillos">
+    <h3>Tornillos de Acero</h3>
+    <p>Precio: Q.39.00</p> <!-- $5.00 * 7.8 = Q.39.00 -->
+    <button onclick="agregarAlCarrito('Tornillos de Acero', 39)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/tuercas.jpeg" alt="Tuercas">
+    <h3>Tuercas Hexagonales</h3>
+    <p>Precio: Q.23.40</p> <!-- $3.00 * 7.8 = Q.23.40 -->
+    <button onclick="agregarAlCarrito('Tuercas Hexagonales', 23.4)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/taladro.jpeg" alt="Taladro">
+    <h3>Taladro Eléctrico</h3>
+    <p>Precio: Q.390.00</p> <!-- $50.00 * 7.8 = Q.390.00 -->
+    <button onclick="agregarAlCarrito('Taladro Eléctrico', 390)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/inglesa.jpeg" alt="Llave Inglesa">
+    <h3>Llave Inglesa</h3>
+    <p>Precio: Q.93.60</p> <!-- $12.00 * 7.8 = Q.93.60 -->
+    <button onclick="agregarAlCarrito('Llave Inglesa', 93.6)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/metro.jpg" alt="Cinta Métrica">
+    <h3>Cinta Métrica 5m</h3>
+    <p>Precio: Q.62.40</p> <!-- $8.00 * 7.8 = Q.62.40 -->
+    <button onclick="agregarAlCarrito('Cinta Métrica 5m', 62.4)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/destornilladores.jpeg" alt="Juego de Destornilladores">
+    <h3>Juego de Destornilladores</h3>
+    <p>Precio: Q.140.40</p> <!-- $18.00 * 7.8 = Q.140.40 -->
+    <button onclick="agregarAlCarrito('Juego de Destornilladores', 140.4)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/calor.jpeg" alt="Pistola de Calor">
+    <h3>Pistola de Calor</h3>
+    <p>Precio: Q.234.00</p> <!-- $30.00 * 7.8 = Q.234.00 -->
+    <button onclick="agregarAlCarrito('Pistola de Calor', 234)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/escalera.jpg" alt="Escalera Telescópica">
+    <h3>Escalera Telescópica</h3>
+    <p>Precio: Q.468.00</p> <!-- $60.00 * 7.8 = Q.468.00 -->
+    <button onclick="agregarAlCarrito('Escalera Telescópica', 468)">Añadir al carrito</button>
+</div>
+
+<!-- Nuevos productos -->
+<div class="producto">
+    <img src="images/pistola.jpeg" alt="Pistola de Clavos">
+    <h3>Pistola de Clavos</h3>
+    <p>Precio: Q.273.00</p> <!-- $35.00 * 7.8 = Q.273.00 -->
+    <button onclick="agregarAlCarrito('Pistola de Clavos', 273)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/lijadora.jpeg" alt="Lijadora Eléctrica">
+    <h3>Lijadora Eléctrica</h3>
+    <p>Precio: Q.351.00</p> <!-- $45.00 * 7.8 = Q.351.00 -->
+    <button onclick="agregarAlCarrito('Lijadora Eléctrica', 351)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/compresora.jpeg" alt="Compresor de Aire">
+    <h3>Compresor de Aire</h3>
+    <p>Precio: Q.936.00</p> <!-- $120.00 * 7.8 = Q.936.00 -->
+    <button onclick="agregarAlCarrito('Compresor de Aire', 936)">Añadir al carrito</button>
+</div>
+
+<div class="producto">
+    <img src="images/circular.jpeg" alt="Sierra Circular">
+    <h3>Sierra Circular</h3>
+    <p>Precio: Q.702.00</p> <!-- $90.00 * 7.8 = Q.702.00 -->
+    <button onclick="agregarAlCarrito('Sierra Circular', 702)">Añadir al carrito</button>
+</div>
+
+
+
+        <!-- Sección del carrito -->
+<section id="carrito">
+    <h2>Tu Carrito</h2>
+    <p id="totalCarrito">Total: Q0.00</p>
+    <button onclick="limpiarCarrito()">Limpiar carrito</button>
+    <button onclick="finalizarCompra()">Finalizar compra</button>
+</section>
+
+
+        <!-- Sección Comentarios y Ayuda -->
+        <section id="comentarios">
+            <h2>Comentarios y Ayuda</h2>
+            <form action="enviar_comentario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+                <button type="submit">Enviar Comentario</button>
+
+                <header>
+                    <!-- Botón para mostrar/ocultar el menú -->
+                    <button id="toggleMenuBtn" onclick="toggleMenu()">Redes Sociales</button>
+                </header>
+            
+                <main>
+            
+                    <!-- Menú de imágenes con enlaces (oculto inicialmente) -->
+                    <section id="menu" class="oculto">
+                        <h2>Menú de Enlaces</h2>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/share/19zsST5Hc2/?mibextid=wwXIfr" target="_blank">
+                                    <img src="images/facebook.jpeg" alt="Facebook" class="iconoRedes">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ferre_ordo?igsh=MXQzOGt6Y3hhd2hrOA%3D%3D&utm_source=qr" target="_blank">
+                                    <img src="images/instagram.jpeg" alt="Instagram" class="iconoRedes">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/50249050058" target="_blank">
+                                    <img src="images/whatsapp.jpeg" alt="WhatsApp" class="iconoRedes">
+                                </a>
+                            </li>
+                        </ul>
+
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Ferretería Ordoñez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
